@@ -1,0 +1,11 @@
+﻿<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections xdt:Transform="InsertIfMissing">
+    <section name="genome" type="Genome.ConfigSection, Genome.Core" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+  </configSections>
+  <genome xdt:Transform="InsertIfMissing">
+    <root xdt:Transform="InsertIfMissing">
+      <!-- Insert/replace your Genome configuration here -->
+      <!-- Add xmlns:g="urn:genome:config" to the 'root' define genome namespace -->
+    </root>
+  </genome>
+</configuration>

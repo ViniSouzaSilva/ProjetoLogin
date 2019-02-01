@@ -1,0 +1,352 @@
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.dll
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.dll
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.xml
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.xml
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telainicial.resources
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\source\repos\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.xml
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.xml
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telainicial.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Abrirchamadoform.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaTodosChamados.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.dll
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.dll
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.xml
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.xml
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Abrirchamadoform.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaInicial.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaTodosChamados.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Renan\Desktop\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.xml
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.xml
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Abrirchamadoform.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaInicial.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaTodosChamados.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Core.xml
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\bin\Debug\Genome.Ui.xml
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Renan\Desktop\ProjetoLogin 1.1\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.dll
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+D:\PIM\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Renan\Documents\ProjetoLogin 1.4\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Renan\Desktop\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.ChamadoUsuario.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.5\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbreChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbreChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.ChamadoUsuario.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\Jeremias Jr\Desktop\PIM\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.ChamadoUsuario.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuario.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuarioADM.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.ChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuarioADM.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.2\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.ChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuarioADM.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.6\ProjetoLogin 1.4.2\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\ProjetoLogin.exe.config
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\ProjetoLogin.exe
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\MetroFramework.Design.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\MetroFramework.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.csprojResolveAssemblyReference.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.AbrirChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Cadastro.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.ChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.Telabuscarchamados.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaBuscarUsuarioADM.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CopyComplete
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.exe
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaInfoChamado.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentação.TelaInfoChamadoUsuario.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.TelaPrincipal.resources
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\ProjetoLogin.exe.manifest
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\bin\Debug\ProjetoLogin.application
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.exe.manifest
+C:\Users\vinic\Downloads\ProjetoLogin 1.4.7\ProjetoLogin 1.4.7\ProjetoLogin\obj\Debug\ProjetoLogin.application

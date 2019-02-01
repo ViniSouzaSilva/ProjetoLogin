@@ -1,0 +1,2171 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Genome.Ui</name>
+    </assembly>
+    <members>
+        <member name="T:Ids.Ui.AppStarting.MainViewModel">
+            <summary>
+            <see cref="F:Ids.Ui.AppStarting.MainViewModel.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.AppStarting.MainViewModel.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.AppStarting.MainViewModel.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.AppStarting.DefaultDialogAppController">
+            <summary>
+            <see cref="F:Ids.Ui.AppStarting.DefaultDialogAppController.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.AppStarting.DefaultDialogAppController.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.AppStarting.DefaultDialogAppController.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.AppStarting.MainViewModelAttribute">
+            <summary>
+            Specifies a main viewModel, that will be show when application will started
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.AppStarting.MainViewModelAttribute.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.AppStarting.MainViewModelAttribute"/>
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.BaseUiEngine`2">
+            <summary>
+            Base class for Ui engines
+            </summary>
+            <typeparam name="TView">view type</typeparam>
+            <typeparam name="TContainerView">container view type</typeparam>
+        </member>
+        <member name="T:Genome.Ui.IUiEngine">
+            <summary>
+            Provides functionality for user interaction through graphic interface
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.ConvertView(System.Object)">
+            <summary>
+            Converts a view to ui format
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.ApplyModel(System.Object,Genome.Ui.ViewHolder)">
+            <summary>
+            Applies model to view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.UiInvoke(System.Action)">
+            <summary>
+            Invokes action in ui thread
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.CreateContainerView(Genome.Ui.ViewHolder,Genome.Ui.ContainerViewHolder)">
+            <summary>
+            Creates ui container view for show later
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.CreateModalContainerView(Genome.Ui.ViewHolder,Genome.Ui.ContainerViewHolder)">
+            <summary>
+            Creates ui container view for show later
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.InjectView(Genome.Ui.ViewHolder,Genome.Ui.ViewHolder)">
+            <summary>
+            Injects view to other view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.RemoveInjected(Genome.Ui.ViewHolder)">
+            <summary>
+            Removes injected view from parent view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.Show(Genome.Ui.ContainerViewHolder)">
+            <summary>
+            Shows specified container view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.ShowModal(Genome.Ui.ContainerViewHolder)">
+            <summary>
+            Shows modal window
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.Close(Genome.Ui.ContainerViewHolder)">
+            <summary>
+            Closes specified container view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.GetStandartDialogsController">
+            <summary>
+            Gets an <see cref="T:Genome.Ui.IStandartDialogsController"/>
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.GetUiCommandFactory">
+            <summary>
+            Gets an <see cref="T:Genome.Ui.IUiCommandFactory"/>
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.GetMainView">
+            <summary>
+            Gets the main view container
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.BusyView(Genome.Ui.ViewHolder,System.String)">
+            <summary>
+            Makes view busy and demonstrates circular progress
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.UnbusyView(Genome.Ui.ViewHolder)">
+            <summary>
+            Makes view unbusy and hides circular progress
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.LockView(Genome.Ui.ViewHolder,System.String,System.String)">
+            <summary>
+            Locks view busy 
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiEngine.UnlockView(Genome.Ui.ViewHolder)">
+            <summary>
+            Makes view unlcked
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.IUiEngine.MainViewDetected">
+            <summary>
+            Occures when the main view is detected
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.BindModelAttribute">
+            <summary>
+            Specifies model type which to associate marked view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.BindModelAttribute.#ctor(System.Type)">
+            <summary>
+            Initialize a new instance of AssociateWithModelAttribute
+            </summary>
+            <param name="modelType">target model type</param>
+        </member>
+        <member name="P:Genome.Ui.BindModelAttribute.ModelType">
+            <summary>
+            Target model type
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.BindModelAttribute.ContextModelType">
+            <summary>
+            Context model type
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.BindOperatorAttribute">
+            <summary>
+            Specifies operator for view model
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.BindOperatorAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.BindOperatorAttribute"/>
+            </summary>
+            <param name="operatorType">operator type</param>
+        </member>
+        <member name="M:Genome.Ui.BindOperatorAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.BindOperatorAttribute"/>
+            </summary>
+            <param name="factoryId">operator factory identifier</param>
+        </member>
+        <member name="M:Genome.Ui.BindOperatorAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.BindOperatorAttribute"/>
+            </summary>
+            <param name="factoryId">operator factory identifier</param>
+            <param name="factoryCategoryId">operator factory category identifier</param>
+        </member>
+        <member name="P:Genome.Ui.BindOperatorAttribute.FactoryId">
+            <summary>
+            Operator factory identifier
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.BindOperatorAttribute.FactoryCategoryId">
+            <summary>
+            Operator factory category identifier
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.BindOperatorAttribute.ControllerType">
+            <summary>
+            Controller type
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.BindViewAttribute">
+            <summary>
+            Specifies model relation with view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.BindViewAttribute.#ctor(System.Type)">
+            <summary>
+            Initialize a new instance of AssociateWithViewAttribute
+            </summary>
+            <param name="viewType">associating view</param>
+        </member>
+        <member name="M:Genome.Ui.BindViewAttribute.#ctor(System.String)">
+            <summary>
+            Initialize a new instance of AssociateWithViewAttribute
+            </summary>
+            <param name="factoryId">associating view factory identifier</param>
+        </member>
+        <member name="M:Genome.Ui.BindViewAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Initialize a new instance of AssociateWithViewAttribute
+            </summary>
+            <param name="factoryId">associating view factory identifier</param>
+            <param name="factoryCategory">View factory category</param>
+        </member>
+        <member name="P:Genome.Ui.BindViewAttribute.ContextModelType">
+            <summary>
+            Context model type of association 
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.Color">
+            <summary>
+            Contains color comnponents values
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.Color.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.Color"/>
+            </summary>
+            <param name="r">red color component value</param>
+            <param name="g">green color component value</param>
+            <param name="b">blue color component value</param>
+        </member>
+        <member name="M:Genome.Ui.Color.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.Color"/>
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.Color.ToHex">
+            <summary>
+            Converts colo to hex string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Genome.Ui.Color.ToInt">
+            <summary>
+            Converts color to <see cref="T:System.Int32"/> value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Genome.Ui.Color.R">
+            <summary>
+            Red color component value
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.Color.G">
+            <summary>
+            Green color component value
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.Color.B">
+            <summary>
+            Blue color component
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ControlId">
+            <summary>
+            <see cref="F:Genome.Ui.ControlId.Description"/>
+            </summary>
+            <remarks>Namespace: '<see cref="F:Genome.Ui.ControlId.IdNamespace"/>'</remarks>
+        </member>
+        <member name="F:Genome.Ui.ControlId.IdNamespace">
+            <summary>
+            Input namespace restriction
+            </summary>
+        </member>
+        <member name="F:Genome.Ui.ControlId.Default">
+            <summary>
+            Default ControlId
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ControlId.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.ControlId"/>
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ControlId.#ctor">
+            <summary>
+            Serialization constructor
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ControlId.op_Implicit(System.String)~Genome.Ui.ControlId">
+            <summary>
+            Converts a <see cref="T:System.String"/> to <see cref="T:Genome.Ui.ControlId"/>
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ControlId.Create(System.String)">
+            <summary>
+            Creates <see cref="T:Genome.Ui.ControlId"/> based on name
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ControlId.Validate(System.String)">
+            <summary>
+            Validates identifier
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.DialogVm">
+            <summary>
+            Represent dialog view model functionality
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ViewModel">
+            <summary>
+            View model 
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.CreateViewModel(System.Type,System.Object[])">
+            <summary>
+            Creates ViewModel by specified type with constructor parameters
+            </summary>
+            <param name="viewModelType">ViewModel type</param>
+            <param name="parameters">constructor parameters</param>
+            <returns>created ViewModel</returns>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.CreateViewModel``1(System.Object[])">
+            <summary>
+            Creates ViewModel by specified type with constructor parameters
+            </summary>
+            <typeparam name="T">ViewModel type</typeparam>
+            <param name="parameters">constructor parameters</param>
+            <returns>created ViewModel</returns>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.WrapObject``1(``0)">
+            <summary>
+            Wraps target object by ViewModel
+            </summary>
+            <typeparam name="T">wrapped object Type</typeparam>
+            <param name="target">wrapped object</param>
+            <returns>ViewModel wrapper</returns>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.Activate">
+            <summary>
+            Calls when viewmodel has been shown
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.Deactivate">
+            <summary>
+            Calls when viewmodel has been hidden
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.Invoke(System.Action)">
+            <summary>
+            Invokes delegate in UI-thread context synchronously 
+            </summary>
+            <param name="action">target delegate</param>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.OnPropertyChanged(System.String)">
+            <summary>
+            Initiate a <see cref="E:Genome.Ui.ViewModel.PropertyChanged"/> event
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="M:Genome.Ui.ViewModel.HandleOnPropertyChanged(System.String)">
+            <summary>
+            Occurs when <see cref="E:Genome.Ui.ViewModel.PropertyChanged"/> was fired
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="P:Genome.Ui.ViewModel.Title">
+            <summary>
+            ViewModel title
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.ViewModel.Icon">
+            <summary>
+            Icon
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.#ctor(Genome.Ui.DialogButtons)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="buttons">dialog buttons</param>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.AcceptValidate">
+            <summary>
+            Allow to close dialog with positive result
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.RejectValidate">
+            <summary>
+            Allow to close dialog with negative result
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.CancelValidate">
+            <summary>
+            Allow to close dialog with cancel-result
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.OnAccept">
+            <summary>
+            Calls when dialog closing with positive result
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.OnReject">
+            <summary>
+            Calls when dialog closing with negative result
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.OnCancel">
+            <summary>
+            Calls when dialog is canceled
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.HandleError(Genome.ValidationResult)">
+            <summary>
+            Calls when error occurred
+            </summary>
+            <param name="validationResult">thrown exception</param>
+            <returns>handle flag</returns>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.HandleAcceptError(Genome.ValidationResult)">
+            <summary>
+            Calls when accepting error occurred 
+            </summary>
+            <param name="validationResult">thrown exception</param>
+            <returns>handle flag</returns>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.HandleRejectError(Genome.ValidationResult)">
+            <summary>
+            Calls when rejecting error occurred
+            </summary>
+            <param name="validationResult">thrown exception</param>
+            <returns>handle flag</returns>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogVm.HandleCancelError(Genome.ValidationResult)">
+            <summary>
+            Calls when cancelling error occurred
+            </summary>
+            <param name="validationResult">thrown exception</param>
+            <returns>handle flag</returns>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.DialogVm.Closed">
+            <summary>
+            Fires when dialog has closed
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.DialogVm.PreviewClosed">
+            <summary>
+            Fires before dialog closing
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.DialogVm.DialogCommands">
+            <summary>
+            Dialog commands
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.DialogVm.DialogResult">
+            <summary>
+            Dialog results. True - positive, False - negative, NUll - cancel
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.EventingDialogVm`1">
+            <summary>
+            Dialogg view model with events
+            </summary>
+            <typeparam name="TController">controller type</typeparam>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.EventingDialogVm">
+            <summary>
+            Dialogg view model with events
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.EventingDialogVm.#ctor(Genome.Ui.DialogButtons)">
+            <summary>
+            Initialize a new instance of EventingDialog
+            </summary>
+            <param name="buttons">dialog buttons</param>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.AcceptValidating">
+            <summary>
+            Occurs when dialog accept validating
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.RejectValidating">
+            <summary>
+            Occurs when dialog reject validating
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.CancelValidating">
+            <summary>
+            Occurs when dialog cancel validating
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.Accepting">
+            <summary>
+            Occurs when dialog accepting
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.Rejecting">
+            <summary>
+            Occurs when dialog rejecting
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.Cancelling">
+            <summary>
+            Occurs when dialog cancelling
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.AcceptFaild">
+            <summary>
+            Occurs when dialog accepting provoke an error
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.RejectFaild">
+            <summary>
+            Occurs when dialog rejecting provoke an error
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.CancelFaild">
+            <summary>
+            Occurs when dialog cancelling provoke an error
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.DefaultViewModels.EventingDialogVm.Faild">
+            <summary>
+            Occurs when dialog provoke an error
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IEquippedViewModel">
+            <summary>
+            View model with controller
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IEquippedViewModel.SetOperator(System.Object)">
+            <summary>
+            Sets a iew model controller
+            </summary>
+            <param name="controller">view model controller</param>
+        </member>
+        <member name="M:Genome.Ui.IEquippedViewModel.GetOperatorType">
+            <summary>
+            Gets a controller type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.EventingDialogVm`1.#ctor(Genome.Ui.DialogButtons)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.DefaultViewModels.EventingDialogVm`1"/>
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.DialogErrorHandlingEventArgs">
+            <summary>
+            Arguments contains dialog error parameters
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogErrorHandlingEventArgs.#ctor(Genome.ValidationResult)">
+            <summary>
+            Initialize a new instance of DialogErrorHandlingEventArgs.
+            </summary>
+            <param name="validationResult">a detected exception</param>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.DialogErrorHandlingEventArgs.ValidationResult">
+            <summary>
+            Validation error that was detected in dialog
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.DialogErrorHandlingEventArgs.Handled">
+            <summary>
+            Indicates that error was been
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.DialogValidatingEventArgs">
+            <summary>
+            Arguments of validation events
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.DialogValidatingEventArgs.ValidationResult">
+            <summary>
+            Indicates that operation validated
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.DialogClosingResult">
+            <summary>
+            Contains result of closed dialog
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.DialogClosingResult.#ctor(System.Nullable{System.Boolean})">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.DefaultViewModels.DialogClosingResult"/>
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.DialogClosingResult.Result">
+            <summary>
+            Dialog result
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.GetButtonNameModifier">
+            <summary>
+            Specify button which name requested
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.EquippedDialogVm`1">
+            <summary>
+            Represent dialog view model functionality
+            </summary>
+            <typeparam name="TOperator">operator type</typeparam>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.EquippedDialogVm`1.#ctor(Genome.Ui.DialogButtons)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="buttons">dialog buttons</param>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.EquippedDialogVm`1.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Viewcontrollers.MessageBoxViewController">
+            <summary>
+            <see cref="F:Ids.Ui.Viewcontrollers.MessageBoxViewController.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Viewcontrollers.MessageBoxViewController.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Viewcontrollers.MessageBoxViewController.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DefaultViewModels.MessageBoxVm">
+            <summary>
+            MessageBox view model
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.DefaultViewModels.MessageBoxVm.#ctor(Genome.Ui.MessageBoxParameters)">
+            <summary>
+            Initialize a new instance of MessageBoxVm
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.MessageBoxVm.Type">
+            <summary>
+            Message box type
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.DefaultViewModels.MessageBoxVm.Message">
+            <summary>
+            Message box string content
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.EquippedViewModel`1">
+            <summary>
+            View model with operator
+            </summary>
+            <typeparam name="TOperator">operator type</typeparam>
+        </member>
+        <member name="T:Genome.Ui.IContentHolder">
+            <summary>
+            Specifies a control that can contains other view
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IContentHolder.SetContent(System.Object)">
+            <summary>
+            Sets content view
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Manager">
+            <summary>
+            <see cref="F:Ids.Ui.Manager.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Manager.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Manager.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.UiEngine">
+            <summary>
+            <see cref="F:Ids.Ui.UiEngine.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.UiEngine.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.UiEngine.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.StateManager">
+            <summary>
+            <see cref="F:Ids.Ui.StateManager.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.StateManager.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.StateManager.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.ThemeManager">
+            <summary>
+            <see cref="F:Ids.Ui.ThemeManager.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ThemeManager.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ThemeManager.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.ThemeConfigHandler">
+            <summary>
+            <see cref="F:Ids.Ui.ThemeConfigHandler.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ThemeConfigHandler.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ThemeConfigHandler.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.ImplKinds.Theme">
+            <summary>
+            <see cref="F:Ids.Ui.ImplKinds.Theme.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ImplKinds.Theme.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ImplKinds.Theme.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.ContentCategories.Themes">
+            <summary>
+            <see cref="F:Ids.Ui.ContentCategories.Themes.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ContentCategories.Themes.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ContentCategories.Themes.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.ContentCategories.UiControlFactories">
+            <summary>
+            <see cref="F:Ids.Ui.ContentCategories.UiControlFactories.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ContentCategories.UiControlFactories.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ContentCategories.UiControlFactories.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.FactoryCategories.Controls">
+            <summary>
+            <see cref="F:Ids.Ui.FactoryCategories.Controls.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.FactoryCategories.Controls.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.FactoryCategories.Controls.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.FactoryCategories.Views">
+            <summary>
+            <see cref="F:Ids.Ui.FactoryCategories.Views.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.FactoryCategories.Views.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.FactoryCategories.Views.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.FactoryCategories.ViewControllers">
+            <summary>
+            <see cref="F:Ids.Ui.FactoryCategories.ViewControllers.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.FactoryCategories.ViewControllers.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.FactoryCategories.ViewControllers.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Contexts.ViewModel">
+            <summary>
+            <see cref="F:Ids.Ui.Contexts.ViewModel.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Contexts.ViewModel.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Contexts.ViewModel.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Contexts.IgnoreMasterVmWrapping">
+            <summary>
+            <see cref="F:Ids.Ui.Contexts.IgnoreMasterVmWrapping.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Contexts.IgnoreMasterVmWrapping.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Contexts.IgnoreMasterVmWrapping.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Constants.DefaultTheme">
+            <summary>
+            <see cref="F:Ids.Ui.Constants.DefaultTheme.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Constants.DefaultTheme.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Constants.DefaultTheme.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Constants.UseDefaultStandartDialogs">
+            <summary>
+            <see cref="F:Ids.Ui.Constants.UseDefaultStandartDialogs.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Constants.UseDefaultStandartDialogs.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Constants.UseDefaultStandartDialogs.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IMasterViewModel">
+            <summary>
+            Master view model interface
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IMasterViewModel.SetContent(System.Object)">
+            <summary>
+            Sets a content model
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IStandartDialogsController">
+            <summary>
+            Provides abilities for use standart dialogs
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStandartDialogsController.ShowMessage(Genome.Ui.ShowViewParameters{Genome.Ui.MessageBoxParameters})">
+            <summary>
+            Shows message box
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStandartDialogsController.ShowOpenFileDialog(Genome.Ui.ShowViewParameters{Genome.Ui.OpenFileDialogParameters})">
+            <summary>
+            Shows open file dialog
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStandartDialogsController.ShowSaveFileDialog(Genome.Ui.ShowViewParameters{Genome.Ui.SaveFileDialogParameters})">
+            <summary>
+            Shows save file dialog
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IThemeManager">
+            <summary>
+            Defines a manager that provides UI theme management
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IThemeManager.CreateTheme(System.Uri)">
+            <summary>
+            Creates an UI theme by content uri
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IThemeManager.CreateTheme(System.Byte[])">
+            <summary>
+            Creates an UI theme by theme content
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IThemeManager.SetTheme(Genome.Ui.UiTheme)">
+            <summary>
+            Sets current theme
+            </summary>
+            <param name="newTheme">new theme provider</param>
+        </member>
+        <member name="P:Genome.Ui.IThemeManager.CurrentTheme">
+            <summary>
+            Gets the current theme
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IUiCommand">
+            <summary>
+            Specifies a command supported by UI block
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.IUiCommand.Executed">
+            <summary>
+            Occurs when command has been executed
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IUiCommand.Title">
+            <summary>
+            Command title
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IUiCommand.Description">
+            <summary>
+            Additional description.
+            </summary>
+            <remarks>For example - hint content</remarks>
+        </member>
+        <member name="P:Genome.Ui.IUiCommand.Icon">
+            <summary>
+            Command icon
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IUiCommand.IsDefault">
+            <summary>
+            Indicates that button used it command is default-button in current window context.
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IUiCommand.IsCancel">
+            <summary>
+            Indicates that button used it command is cancel-button in current window context.
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IUiCommand.Logic">
+            <summary>
+            Gets an inner command
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IUiCommandFactory">
+            <summary>
+            factory of ui-commands
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiCommandFactory.CreateCommand(Genome.Commands.Command)">
+            <summary>
+            Creates UI command as wrapper for <see cref="T:Genome.Commands.Command"/>
+            </summary>
+            <param name="cmd">wrapped command</param>
+            <returns>UI command</returns>
+        </member>
+        <member name="T:Genome.Ui.IUiManager">
+            <summary>
+            Specified UI block manager that provides access to UI
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.Show(System.Object,Genome.IObjectProvider)">
+            <summary>
+            Shows window
+            </summary>
+            <param name="model">window model</param>
+            <param name="viewProvider">window view provider</param>
+            <returns>rollback object for close window</returns>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.ShowModal(System.Object,Genome.IObjectProvider)">
+            <summary>
+            Shows a modal window
+            </summary>
+            <param name="model">window modal</param>
+            <param name="viewProvider">model view provider</param>
+            <returns>dialog result</returns>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.Close(System.Object)">
+            <summary>
+            Closes window view
+            </summary>
+            <param name="model">model which view will be closed</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.InjectOntoView(System.Object,System.Object,Genome.IObjectProvider)">
+            <summary>
+            Puts view on other view.
+            </summary>
+            <param name="model">child view model</param>
+            <param name="parentView">parent view</param>
+            <param name="viewProvider">child view provider</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.RemoveInjectedView(System.Object)">
+            <summary>
+            Removes injected view
+            </summary>
+            <param name="injectedView">injectedView</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.RemoveInjectedModel(System.Object)">
+            <summary>
+            Removes injected view
+            </summary>
+            <param name="injectedModel">injected model</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.BindView(System.Type,Genome.IInstanceFactory)">
+            <summary>
+            Associates view to specified model
+            </summary>
+            <param name="modelType">target model</param>
+            <param name="viewFactory">provider of view that will be associated</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.BindView(System.Type,Genome.IInstanceFactory,System.Type)">
+            <summary>
+            Associates view to model in specified context
+            </summary>
+            <param name="modelType">target model</param>
+            <param name="viewFactory">provider of view that will be associated</param>
+            <param name="contextModelType">context model</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.BindMasterViewModel(System.Type,Genome.IInstanceFactory{Genome.Ui.IMasterViewModel})">
+            <summary>
+            Associates a master view model to model
+            </summary>
+            <param name="modelType">target model type</param>
+            <param name="masterViewModelFactory">master view model factory</param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.GetBindedViewFactory(System.Type)">
+            <summary>
+            Gets view factory that is associated to specified model type
+            </summary>
+            <param name="modelType">specified model type</param>
+            <returns>associated view factory</returns>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.RegisterViewModel(Genome.Ui.ViewModel)">
+            <summary>
+            Register ViewModel into UI block
+            </summary>
+            <param name="viewModel">registering ViewModel</param>
+            <returns>rollback object for unregistering</returns>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.UiInvoke(System.Action)">
+            <summary>
+            Invokes an action in ui thread
+            </summary>
+            <param name="action"></param>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.GetMainModel">
+            <summary>
+            Gets the main app UI model
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.BusyViewModel(System.Object,System.String)">
+            <summary>
+            Makes view busy and demonstrates circular progress
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.UnbusyViewModel(System.Object)">
+            <summary>
+            Makes view unbusy and hides circular progress
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.LockViewModel(System.Object,System.String,System.String)">
+            <summary>
+            Locks view busy 
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IUiManager.UnlockViewModel(System.Object)">
+            <summary>
+            Makes view unlcked
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IView">
+            <summary>
+            Specifies a view
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IView.Model">
+            <summary>
+            Gets or sets a view data context
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IViewBehavior">
+            <summary>
+            Specifies a view controller. Attach to target view as composite part.
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IViewBehavior.InitViewContainer(System.Object)">
+            <summary>
+            Initialize a view when view is created
+            </summary>
+            <param name="view">target view</param>
+        </member>
+        <member name="M:Genome.Ui.IViewBehavior.OverrideViewContainerFactory">
+            <summary>
+            Defines or overrides default view container factory
+            </summary>
+            <returns>View container factory. Does nothing if NULL</returns>
+        </member>
+        <member name="T:Ids.Ui.Strings.Dialogs.Ok">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.Dialogs.Ok.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.Ok.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.Ok.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.Dialogs.Cancel">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.Dialogs.Cancel.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.Cancel.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.Cancel.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.Dialogs.Yes">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.Dialogs.Yes.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.Yes.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.Yes.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.Dialogs.No">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.Dialogs.No.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.No.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.Dialogs.No.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.MessageBox.Question">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.MessageBox.Question.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Question.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Question.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.MessageBox.Information">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.MessageBox.Information.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Information.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Information.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.MessageBox.Warning">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.MessageBox.Warning.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Warning.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Warning.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.MessageBox.Error">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.MessageBox.Error.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Error.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.MessageBox.Error.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.OpenFileDialog.Filename">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.OpenFileDialog.Filename.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.Filename.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.Filename.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.OpenFileDialog.Title">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.OpenFileDialog.Title.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.Title.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.Title.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.OpenFileDialog.DirectoryNotFound">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.OpenFileDialog.DirectoryNotFound.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.DirectoryNotFound.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.DirectoryNotFound.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.OpenFileDialog.OpenFileButtonName">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.OpenFileDialog.OpenFileButtonName.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.OpenFileButtonName.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.OpenFileDialog.OpenFileButtonName.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.SaveFileDialog.Title">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.SaveFileDialog.Title.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SaveFileDialog.Title.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SaveFileDialog.Title.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.SaveFileDialog.SaveFileButtonName">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.SaveFileDialog.SaveFileButtonName.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SaveFileDialog.SaveFileButtonName.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SaveFileDialog.SaveFileButtonName.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.SaveFileDialog.FileAlreadyExistsQuestion">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.SaveFileDialog.FileAlreadyExistsQuestion.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SaveFileDialog.FileAlreadyExistsQuestion.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SaveFileDialog.FileAlreadyExistsQuestion.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.SelectFolderDialog.Title">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.SelectFolderDialog.Title.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SelectFolderDialog.Title.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.SelectFolderDialog.Title.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.MasterViewModelAttribute">
+            <summary>
+            Associates marked model to master view model
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.MasterViewModelAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.MasterViewModelAttribute"/>
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.MasterViewModelAttribute.MasterViewModelType">
+            <summary>
+            Master view model type
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.MessageBox">
+            <summary>
+            Provides methods for show a message box 
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.MessageBox.ShowQuestion(System.String,System.Boolean,System.String)">
+            <summary>
+            Shows question box
+            </summary>
+            <param name="questionText">question content</param>
+            <param name="cancelable">is the message box cancelable</param>
+            <param name="title">message title</param>
+        </member>
+        <member name="M:Genome.Ui.MessageBox.ShowError(System.String,System.String)">
+            <summary>
+            Shows an error message box
+            </summary>
+            <param name="errorText">error content</param>
+            <param name="title">message title</param>
+        </member>
+        <member name="M:Genome.Ui.MessageBox.ShowWarning(System.String,System.String)">
+            <summary>
+            Shows warning message box
+            </summary>
+            <param name="warningText">warning content</param>
+            <param name="title">message title</param>
+        </member>
+        <member name="M:Genome.Ui.MessageBox.ShowInfo(System.String,System.String)">
+            <summary>
+            Shows an information message box
+            </summary>
+            <param name="infoText">information content</param>
+            <param name="title">message title</param>
+        </member>
+        <member name="T:Ids.Ui.HomeState">
+            <summary>
+            <see cref="F:Ids.Ui.HomeState.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.HomeState.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.HomeState.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.ContentCategories.RegStateByNameInfos">
+            <summary>
+            <see cref="F:Ids.Ui.ContentCategories.RegStateByNameInfos.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ContentCategories.RegStateByNameInfos.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.ContentCategories.RegStateByNameInfos.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ClosedEventArgs">
+            <summary>
+            Closed view event argument
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ClosedEventArgs.#ctor(System.Nullable{System.Boolean})">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.ClosedEventArgs"/>
+            </summary>
+            <param name="result">view closing result</param>
+        </member>
+        <member name="P:Genome.Ui.ClosedEventArgs.Result">
+            <summary>
+            View closing result
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IStateManager">
+            <summary>
+            Manages UI states 
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStateManager.CanSwitch(System.String)">
+            <summary>
+            Gets an ability to switch to specified state
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStateManager.SwitchState(System.String,System.Object)">
+            <summary>
+            Switches a current UI state to registered state
+            </summary>
+            <param name="stateName">registeres state name</param>
+            <param name="dataContext">state data context</param>
+        </member>
+        <member name="M:Genome.Ui.IStateManager.Backward">
+            <summary>
+            Switches to previous state
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStateManager.Forward">
+            <summary>
+            Switches to next state
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IStateManager.RegisterState(System.String,System.Object)">
+            <summary>
+            Regisers a state with name
+            </summary>
+            <param name="name">state name. Home if EMPTY</param>
+            <param name="state">state moidel</param>
+            <returns>rollback object</returns>
+        </member>
+        <member name="M:Genome.Ui.IStateManager.UnregisterState(System.String)">
+            <summary>
+            Unregisters an UI state
+            </summary>
+            <param name="name">state name</param>
+        </member>
+        <member name="P:Genome.Ui.IStateManager.CanBackward">
+            <summary>
+            Gives to know that a backward can be performed
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IStateManager.CanForward">
+            <summary>
+            Gives to know that a forward can be performed
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.IStateManager.CurrentState">
+            <summary>
+            Current UI state
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.SelectColorDlgVm">
+            <summary>
+            The view model of a dialog which allow to select a color
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.SelectColorDlgVm.#ctor">
+            <summary>
+            Initalizes a new instance of <see cref="T:Genome.Ui.SelectColorDlgVm"/>
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.SelectColorDlgVm.SelectedColor">
+            <summary>
+            Selected color
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.StandartDialogs">
+            <summary>
+            Provides abilities to use standart dialogs
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.StandartDialogs.ShowOpenFileDialog(Genome.Ui.OpenFileDialogParameters)">
+            <summary>
+            Shows open file dialog
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.StandartDialogs.ShowSaveFileDialog(Genome.Ui.SaveFileDialogParameters)">
+            <summary>
+            Shows save file dialog
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.StandartDialogs.ShowColorDialog(Genome.Ui.ColorDialogParameters)">
+            <summary>
+            Shows color selecting dialog
+            </summary>
+            <returns>Selected color or NULL if canceled by user</returns>
+        </member>
+        <member name="T:Genome.Ui.ColorDialogParameters">
+            <summary>
+            Color dialog parameters
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.DialogParameters">
+            <summary>
+            Show dilaog parameters
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.ColorDialogParameters.PredefinedColor">
+            <summary>
+            Defines a color that will be showed by dialog
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.MessageBoxParameters">
+            <summary>
+            Message box parameteres
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.MessageBoxParameters.MessageText">
+            <summary>
+            Text that will be displayed on a message box
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.MessageBoxParameters.Type">
+            <summary>
+            Message box title
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.MessageBoxParameters.Buttons">
+            <summary>
+            Defaines a button set
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.MessageBoxParameters.AdditionalButtons">
+            <summary>
+            Conteins commads for additional buttons
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.FileDialogParameters">
+            <summary>
+            File dialogs parameters
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogParameters.CurrentPath">
+            <summary>
+            The path that will be opened when dialog will be shown
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogParameters.Filters">
+            <summary>
+            File name filters
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.FileDialogParameters.FilterDef">
+            <summary>
+            File name filter definition
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogParameters.FilterDef.Name">
+            <summary>
+            Filter name
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogParameters.FilterDef.FileExtension">
+            <summary>
+            Filter value
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogParameters.FilterDef.Id">
+            <summary>
+            Filter identifier that will return in result
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.OpenFileDialogParameters">
+            <summary>
+            Open file dialog parameters
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.OpenFileDialogParameters.Multiselect">
+            <summary>
+            Specifies that user can select several files
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.SaveFileDialogParameters">
+            <summary>
+            Save file dialog parameters
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.SaveFileDialogParameters.DefaultFilename">
+            <summary>
+            Predefined filename
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.FileDialogResult">
+            <summary>
+            File dialog result
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogResult.FilterId">
+            <summary>
+            Selected filter identifier
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.OpenFileDialogResult">
+            <summary>
+            Open file dialog result
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.OpenFileDialogResult.Files">
+            <summary>
+            Selected files
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.OpenFileDialogResult.File">
+            <summary>
+            Selected file
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.SaveFileDialogResult">
+            <summary>
+            Save file dialog result
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.SaveFileDialogResult.File">
+            <summary>
+            Selected file
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.FileDialogFile">
+            <summary>
+            Represent a file used in file dialogs
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.FileDialogFile.Name">
+            <summary>
+            File name include extension
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.OpenFileDialogFile">
+            <summary>
+            Represents a file which selected in OpenFiledialog
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.OpenFileDialogFile.OpenRead">
+            <summary>
+            Creates a stream for file reading
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.OpenFileDialogFile.FullName">
+            <summary>
+            File name include extension and directory path
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.SaveFileDialogFile">
+            <summary>
+            Represents a file which selected in SaveFiledialog
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.SaveFileDialogFile.OpenWrite">
+            <summary>
+            Creates a stream for file writing
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.SaveFileDialogFile.FullName">
+            <summary>
+            File name include extension and directory path
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.IState">
+            <summary>
+            Defines UI state
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IState.SetDataContext(System.Object)">
+            <summary>
+            Sets state data context
+            </summary>
+            <param name="dataContext">state data context</param>
+        </member>
+        <member name="M:Genome.Ui.IState.Enter">
+            <summary>
+            Calls when enter to state
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.IState.Escape(System.Action)">
+            <summary>
+            Calls when escape from state
+            </summary>
+            <param name="callback">calls when state ready to escape</param>
+        </member>
+        <member name="T:Genome.Ui.HomeStateAttribute">
+            <summary>
+            Determines a home UI state model 
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.UiStateAttribute">
+            <summary>
+            Determines that a marked class is ui state and it will be registerd in the state manager by name
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.UiStateAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.UiStateAttribute"/>
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.UiStateAttribute.Name">
+            <summary>
+            State name
+            </summary>
+        </member>
+        <member name="T:Genome.StateManagerExtensions">
+            <summary>
+            Extensions for <see cref="T:Genome.Ui.IStateManager"/>
+            </summary>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.SwitchState(Genome.Ui.IStateManager,System.Guid,System.Object)">
+            <summary>
+            Switches a current UI state to registered state
+            </summary>
+            <param name="manager">state manager</param>
+            <param name="stateId">registered state identifier</param>
+            <param name="dataContext">satate data context</param>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.RegisterState(Genome.Ui.IStateManager,System.Guid,System.Object)">
+            <summary>
+            Registers a state with specified identifier
+            </summary>
+            <param name="manager">state manager</param>
+            <param name="id">identifier</param>
+            <param name="state">state model</param>
+            <returns>rollback object</returns>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.RegisterState(Genome.Ui.IStateManager,Genome.IIdentifiable{System.Guid})">
+            <summary>
+            Registers an <see cref="T:Genome.IIdentifiable"/> state
+            </summary>
+            <param name="manager">state manager</param>
+            <param name="identifiableState">identifiable state model</param>
+            <returns>rollback object</returns>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.UnregisterState(Genome.Ui.IStateManager,System.Guid)">
+            <summary>
+            Unregisters an UI state
+            </summary>
+            <param name="manager">state manager</param>
+            <param name="id">state identifier</param>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.CreateSwitchStateCmd(Genome.Ui.IStateManager,System.String)">
+            <summary>
+            Creates an UI command which switches current state to specified state
+            </summary>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.CreateForwardCmd(Genome.Ui.IStateManager)">
+            <summary>
+            Creates an UI command which switches a state forward
+            </summary>
+        </member>
+        <member name="M:Genome.StateManagerExtensions.CreateBackwardCmd(Genome.Ui.IStateManager)">
+            <summary>
+            Creates an UI command which switches a state backward
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ThemeAttribute">
+            <summary>
+            Marks a UI theme
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.ThemeAttribute.#ctor(System.String)">
+            <summary>
+            Initialize a new instance of ThemeAttribute 
+            </summary>
+            <param name="id">theme identifier</param>
+        </member>
+        <member name="T:Genome.ThemeManagerExtensions">
+            <summary>
+            Extensions for <see cref="T:Genome.Ui.IThemeManager"/>
+            </summary>
+        </member>
+        <member name="M:Genome.ThemeManagerExtensions.SetTheme(Genome.Ui.IThemeManager,Genome.ObjectId)">
+            <summary>
+            Sets ui theme by ID
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.UiCommand">
+            <summary>
+            Default implementation of IUICommand
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.UiCommand.#ctor(Genome.Commands.Command)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.UiCommand"/>
+            </summary>
+            <param name="command">encapsulated command</param>
+        </member>
+        <member name="T:Genome.UiCommandFactoryExtensions">
+            <summary>
+            Extensions for <see cref="T:Genome.Ui.IUiCommandFactory"/>
+            </summary>
+        </member>
+        <member name="M:Genome.UiCommandFactoryExtensions.CreateCommand(Genome.Ui.IUiCommandFactory,System.Action,System.Func{Genome.ValidationResult})">
+            <summary>
+            Creates UI command by delegates
+            </summary>
+            <param name="factory">ui-command factory</param>
+            <param name="action">command action</param>
+            <param name="validator">command validator</param>
+            <returns>UI command</returns>
+        </member>
+        <member name="T:Genome.Ui.DialogButtons">
+            <summary>
+            Dialog window buttons
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.MessageTypes">
+            <summary>
+            Message box types
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ShowViewParameters`1">
+            <summary>
+            Show view parameters
+            </summary>
+            <typeparam name="T">custom parameters</typeparam>
+        </member>
+        <member name="P:Genome.Ui.ShowViewParameters`1.CustomParameters">
+            <summary>
+            Custom parameters
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.ShowViewParameters`1.OwnerView">
+            <summary>
+            Owner view
+            </summary>
+        </member>
+        <member name="T:Genome.UiManagerExtensions">
+             <summary>
+            Extensions for <see cref="T:Genome.Ui.IUiManager"/>
+             </summary>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.Show(Genome.Ui.IUiManager,System.Object,Genome.ObjectId)">
+            <summary>
+            Shows window with specified model and factory identifier for view creation
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="model">window model</param>
+            <param name="viewId">view factory identifier</param>
+            <returns>rollback object for close window</returns>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.Show(Genome.Ui.IUiManager,System.Object,System.Object)">
+            <summary>
+            Shows window with specified model and view 
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="model">window model</param>
+            <param name="view">view</param>
+            <returns>rollback object fro close window</returns>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.Show``1(Genome.Ui.IUiManager,System.Object[])">
+            <summary>
+            Shows window with specified model and view 
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="viewModelCtorParams">view model constructor parameters</param>
+            <returns>created model</returns>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.CreateCommand(Genome.Ui.IUiManager,System.Action)">
+            <summary>
+            Creates UI command 
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="action">action which will be wrapped</param>
+            <returns>created UICommand</returns>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.ShowModal(Genome.Ui.IUiManager,System.Object,Genome.ObjectId)">
+            <summary>
+            Shows modal window
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="model">window model</param>
+            <param name="viewId">factory view identifier</param>
+            <returns>dialog window result</returns>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.ShowModal(Genome.Ui.IUiManager,System.Object,System.Object)">
+            <summary>
+            Shows modal window
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="model">window model</param>
+            <param name="view">window view</param>
+            <returns>dialog window result</returns>
+        </member>
+        <member name="M:Genome.UiManagerExtensions.ShowModal``1(Genome.Ui.IUiManager,System.Object[])">
+            <summary>
+            Shows window with specified model and view 
+            </summary>
+            <param name="manager">UI block manager</param>
+            <param name="viewModelCtorParams">view model constructor parameters</param>
+            <returns>created model</returns>
+        </member>
+        <member name="T:Genome.ShowModalResult`1">
+            <summary>
+            Constains dialog results
+            </summary>
+            <typeparam name="TViewModel">dialog view model type</typeparam>
+        </member>
+        <member name="M:Genome.ShowModalResult`1.#ctor(`0,System.Nullable{System.Boolean})">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.ShowModalResult`1"/>
+            </summary>
+        </member>
+        <member name="P:Genome.ShowModalResult`1.Model">
+            <summary>
+            Gets created dialog view model
+            </summary>
+        </member>
+        <member name="P:Genome.ShowModalResult`1.DialogResult">
+            <summary>
+            Gets dialog result
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.UiInitParams">
+            <summary>
+            Contains parameter for ui block configuration 
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.UiTheme">
+            <summary>
+            Represent UI theme
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ViewHolder">
+            <summary>
+            Holds an abstract view
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.ViewHolder.Loaded">
+            <summary>
+            Occures when view loaded
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.ViewHolder.Unloaded">
+            <summary>
+            Occures when view unloaded
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ViewHolder`1">
+            <summary>
+            Holds concrate view
+            </summary>
+            <typeparam name="TView">view type</typeparam>
+        </member>
+        <member name="M:Genome.Ui.ViewHolder`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.ViewHolder`1"/>
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.ViewHolder`1.View">
+            <summary>
+            Holded view
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ContainerViewHolder">
+            <summary>
+            Holds abstract container view
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.ContainerViewHolder.IsOpened">
+            <summary>
+            Is container view opened
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.ContainerViewHolder.Closed">
+            <summary>
+            Occures when container view has closed
+            </summary>
+        </member>
+        <member name="E:Genome.Ui.ContainerViewHolder.Opened">
+            <summary>
+            Occures when container view has opened
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ContainerViewHolder`1">
+            <summary>
+            Holds concrate container view 
+            </summary>
+            <typeparam name="TContainerView">container view type</typeparam>
+        </member>
+        <member name="M:Genome.Ui.ContainerViewHolder`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of <see cref="T:Genome.Ui.ContainerViewHolder`1"/>
+            </summary>
+        </member>
+        <member name="P:Genome.Ui.ContainerViewHolder`1.View">
+            <summary>
+            Holded container view 
+            </summary>
+        </member>
+        <member name="T:Ids.Ui.Strings.DefaultVmAsyncProcessingDescription">
+            <summary>
+            <see cref="F:Ids.Ui.Strings.DefaultVmAsyncProcessingDescription.Description"/>
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.DefaultVmAsyncProcessingDescription.Literal">
+            <summary>
+            A literal identifier value 
+            </summary>
+        </member>
+        <member name="F:Ids.Ui.Strings.DefaultVmAsyncProcessingDescription.Id">
+            <summary>
+            An object identifier value
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ViewModelAttribute">
+            <summary>
+            Defines a ViewModel. Adds a steps to factory conveyor
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.ViewModelContext">
+            <summary>
+            Sets view model context
+            </summary>
+        </member>
+        <member name="T:Genome.ViewModelExtensions">
+            <summary>
+            Extensions for iew models
+            </summary>
+        </member>
+        <member name="M:Genome.ViewModelExtensions.Close(Genome.Ui.ViewModel)">
+            <summary>
+            Closes a window associated with specified viewModel
+            </summary>
+        </member>
+        <member name="M:Genome.ViewModelExtensions.Show(Genome.Ui.ViewModel)">
+            <summary>
+            Shows a window associated with specified viewModel
+            </summary>
+        </member>
+        <member name="M:Genome.ViewModelExtensions.ShowModal(Genome.Ui.ViewModel)">
+            <summary>
+            Shows a modal window associated with specified viewModel
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.VmObjectProvider`1">
+            <summary>
+            View model wrapper that is wrapped object provider
+            </summary>
+        </member>
+        <member name="M:Genome.Ui.VmObjectProvider`1.#ctor(`0)">
+            <summary>
+            Initialize a new instance of <see cref="T:Genome.Ui.VmObjectProvider`1"/>
+            </summary>
+            <param name="target">wrapped object</param>
+        </member>
+        <member name="P:Genome.Ui.VmObjectProvider`1.InnerTarget">
+            <summary>
+            Wrapped object
+            </summary>
+        </member>
+        <member name="T:Genome.Ui.BaseDefaultViewModelWrapper`1">
+            <summary>
+            Wraps an object and presents it properties 
+            </summary>
+            <typeparam name="T">wrapped object type</typeparam>
+        </member>
+        <member name="M:Genome.Ui.BaseDefaultViewModelWrapper`1.#ctor(`0)">
+            <summary>
+            Initialize a new instance of <see cref="T:Genome.Ui.BaseDefaultViewModelWrapper`1"/>
+            </summary>
+            <param name="target">wrapped object type</param>
+        </member>
+        <member name="M:Genome.Ui.BaseDefaultViewModelWrapper`1.SetValue(System.Object,System.String)">
+            <summary>
+            Sets value to wrapped object
+            </summary>
+            <param name="value">new property value</param>
+            <param name="propertyName">property name</param>
+        </member>
+    </members>
+</doc>

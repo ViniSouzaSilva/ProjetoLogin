@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProjetoLogin.exe" version="1.0.0.0" publicKeyToken="37727987c9367e91" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProjetoLogin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProjetoLogin.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0KqAOKkutD3vL/+79BFLAmNhF8U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>e+N444LkPq6E8VZ7NXC8qaZ+dpc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zHJTa4Q4TshHm5c0uUfc6IXvXTE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjetoLogin.exe" size="11477952">
+      <assemblyIdentity name="ProjetoLogin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>T8unbPo2NTXjz6hBa3ueN06qkVo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ProjetoLogin.exe.config" size="1003">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QlpovevkGKg4v5/qn2NkhmR1jbA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TM9NO2D\vinic" issuerKeyHash="25475270fb7d0ef110719cac31980c2f5313b14e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+EfmV1d4Iw9VdMElmZLYNpdf9PQ=</DigestValue></Reference></SignedInfo><SignatureValue>TLdFE89AVsNIlhxql1sgPjIRXqSy1m0+rCYSGVL+w8jyrLhZ/5GyZF1fSqiTaJ4PcknrhcOBh6JCUKiLGIcJi6pnhU22KG7+wa11hKykeW8tdss+JtXIQY4J/Dc+UiIpn0ka0kwLK5sPtYGPRXqJTEUXZJ/qGA28bTBdBcq884E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qC8txGFhBq/O6WeP9x1yUP6LYl+MOwrzlhoBjKbR4H/lxHoSpjdCucAmCyI5Vyo3pbYKtHaqNmaVfnpsDyDDUseUkUWu0xQcxQVz1eu1ktnGWInPEEMfqTWFZjrK+2Nin3hAG834cqsjcsexIlevH2FjT8fF6kNh0RCPby2PJvE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f4f45f9736d8929925c174550f23785757e647f8" Description="" Url=""><as:assemblyIdentity name="ProjetoLogin.exe" version="1.0.0.0" publicKeyToken="37727987c9367e91" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TM9NO2D\vinic</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>j5HF6ej6rVWkO06yOTwxEzraURw=</DigestValue></Reference></SignedInfo><SignatureValue>NdVnuCtspGXHi+5zPeH1Ycr1cCWT76iBBz+EBqWL6dbNhUrOvYrEsnO/IQkElJt/ZeQY/eavA1MYAD0CyYkPZmc7WmUrJEV/xK42Li73MZH7615wUTAn4oTCY49GKsiI/RLMHQBM2VtU6I13l31abmPbUXI2rdJGcyvXldn0eho=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qC8txGFhBq/O6WeP9x1yUP6LYl+MOwrzlhoBjKbR4H/lxHoSpjdCucAmCyI5Vyo3pbYKtHaqNmaVfnpsDyDDUseUkUWu0xQcxQVz1eu1ktnGWInPEEMfqTWFZjrK+2Nin3hAG834cqsjcsexIlevH2FjT8fF6kNh0RCPby2PJvE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKX0FsUPfxYRGgsuYIGf1YDANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQATQA5AE4ATwAyAEQAXAB2AGkAbgBpAGMwHhcNMTgxMjA0MjIzODE3WhcNMTkxMjA1MDQzODE3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQATQA5AE4ATwAyAEQAXAB2AGkAbgBpAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKgvLcRhYQavzulnj/cdclD+i2JfjDsK85YaAYym0eB/5cR6EqY3QrnAJgsiOVcqN6W2CrR2qjZmlX56bA8gw1LHlJFFrtMUHMUFc9XrtZLZxliJzxBDH6k1hWY6yvtjYp94QBvN+HKrI3LHsSJXrx9hY0/HxepDYdEQj28tjybxAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEtG8QXj9NKBDK+eIPvKM6j8g2nMaiyr8r82ZFAntkIiyqyJws4duDv+xEeMPbqZrTaGhCmL8DW1xiaSrV9vKVcHUXToS24qPuthumKjRUFqhL2o89RZVzr+Dje7SqeZUkCdCk3rHZxifNB4wnC0n0MqQM5jBVNq6q6B5DArYgas=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

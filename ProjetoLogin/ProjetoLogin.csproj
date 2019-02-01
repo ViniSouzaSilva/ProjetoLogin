@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6EF12FB-4639-4126-8789-42190FECE316}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjetoLogin</RootNamespace>
+    <AssemblyName>ProjetoLogin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C78C61443E8448032CC79BB2A48C7B54B31BEDD1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ProjetoLogin_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataTypes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GeonBit.UI.3.2.0\lib\geonbitui\DataTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apresentação\AbrirChamadoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\AbrirChamadoUsuario.Designer.cs">
+      <DependentUpon>AbrirChamadoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\AbrirChamado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\AbrirChamado.designer.cs">
+      <DependentUpon>AbrirChamado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\ChamadoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\ChamadoUsuario.Designer.cs">
+      <DependentUpon>ChamadoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\Telabuscarchamados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Telabuscarchamados.designer.cs">
+      <DependentUpon>Telabuscarchamados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\TelaBuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\TelaBuscarUsuario.Designer.cs">
+      <DependentUpon>TelaBuscarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\TelaBuscarUsuarioADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\TelaBuscarUsuarioADM.Designer.cs">
+      <DependentUpon>TelaBuscarUsuarioADM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\TelaChamado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\TelaChamado.Designer.cs">
+      <DependentUpon>TelaChamado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\TelaInfoChamado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\TelaInfoChamado.Designer.cs">
+      <DependentUpon>TelaInfoChamado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\TelaInfoChamadoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\TelaInfoChamadoUsuario.Designer.cs">
+      <DependentUpon>TelaInfoChamadoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dal\Conexao.cs" />
+    <Compile Include="Dal\LoginDalComandos.cs" />
+    <Compile Include="Apresentação\TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\TelaPrincipal.Designer.cs">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dal\Sqlcommand.cs" />
+    <Compile Include="Modelo\Controle.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjetoLoginDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjetoLoginDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjetoLoginDataSetUsuario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjetoLoginDataSetUsuario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_hd_infinitysolutionsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_hd_infinitysolutionsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_hd_infinitysolutionsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_hd_infinitysolutionsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_hd_infinitysolutionsDataSetteste.cs">
+      <DependentUpon>_hd_infinitysolutionsDataSetteste.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_hd_infinitysolutionsDataSetteste.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_hd_infinitysolutionsDataSetteste.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_Help_Desk_PIM_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Help_Desk_PIM_DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Apresentação\AbrirChamadoUsuario.resx">
+      <DependentUpon>AbrirChamadoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\AbrirChamado.resx">
+      <DependentUpon>AbrirChamado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\ChamadoUsuario.resx">
+      <DependentUpon>ChamadoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\TelaInfoChamado.resx">
+      <DependentUpon>TelaInfoChamado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\TelaInfoChamadoUsuario.resx">
+      <DependentUpon>TelaInfoChamadoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Telabuscarchamados.resx">
+      <DependentUpon>Telabuscarchamados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\TelaBuscarUsuario.resx">
+      <DependentUpon>TelaBuscarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\TelaBuscarUsuarioADM.resx">
+      <DependentUpon>TelaBuscarUsuarioADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\TelaChamado.resx">
+      <DependentUpon>TelaChamado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="ProjetoLoginDataSet.xsc">
+      <DependentUpon>ProjetoLoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetoLoginDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjetoLoginDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjetoLoginDataSet.xss">
+      <DependentUpon>ProjetoLoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetoLoginDataSetUsuario.xsc">
+      <DependentUpon>ProjetoLoginDataSetUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetoLoginDataSetUsuario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjetoLoginDataSetUsuario.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjetoLoginDataSetUsuario.xss">
+      <DependentUpon>ProjetoLoginDataSetUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="ProjetoLogin_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_hd_infinitysolutionsDataSet.xsc">
+      <DependentUpon>_hd_infinitysolutionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_hd_infinitysolutionsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSet.xss">
+      <DependentUpon>_hd_infinitysolutionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSet1.xsc">
+      <DependentUpon>_hd_infinitysolutionsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_hd_infinitysolutionsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSet1.xss">
+      <DependentUpon>_hd_infinitysolutionsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSetteste.xsc">
+      <DependentUpon>_hd_infinitysolutionsDataSetteste.xsd</DependentUpon>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSetteste.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_hd_infinitysolutionsDataSetteste.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_hd_infinitysolutionsDataSetteste.xss">
+      <DependentUpon>_hd_infinitysolutionsDataSetteste.xsd</DependentUpon>
+    </None>
+    <None Include="_Help_Desk_PIM_DataSet.xsc">
+      <DependentUpon>_Help_Desk_PIM_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_Help_Desk_PIM_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_Help_Desk_PIM_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_Help_Desk_PIM_DataSet.xss">
+      <DependentUpon>_Help_Desk_PIM_DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fabric-7680x5120-blue-texture-pattern-hd-4k-8k-11101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fabric-7680x5120-blue-texture-pattern-hd-4k-8k-111011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infinity png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infinity24234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_icon-icons.com_64998.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-amarelo-listrado-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-de-linhas-de-zoom-em-quadrinhos-amarelo_1017-15136.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-de-linhas-de-zoom-em-quadrinhos-amarelo_1017-15136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54fb78ed0b3afcea349acdbb8a16fad1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
